@@ -18,12 +18,12 @@ public class BubbleSort {
     }
 
     public static void main(String[] args) {
-        int[] intArray = new int[]{25, 44, 23, 77, 1, 25, 44, 150};
-        int[] intArraySort = sort(intArray);
-        System.out.println(Arrays.toString(intArraySort));
+        int[] intsArray = new int[]{25, 44, 23, 77, 1, 25, 44, 150};
+        sort(intsArray);
+        System.out.println(Arrays.toString(intsArray));
 
-        int[] intArray2 = new int[]{1000, 547, 750, 27, 1, 97, 300, 1001};
-        int[] intArraySort2 = sort(intArray2);
-        System.out.println(Arrays.toString(intArray2));
+        int[] intsArray2 = new int[]{1000, 547, 750, 27, 1, 97, 300, 1001};
+        sort(intsArray2);
+        System.out.println(Arrays.toString(intsArray2));
     }
 }
